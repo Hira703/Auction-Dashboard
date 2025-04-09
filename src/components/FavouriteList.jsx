@@ -44,7 +44,7 @@ const FavouriteList = ({ favourites, onRemove, totalPrice }) => {
       )}
       {/* Total Price */}
       <div className="mt-4 font-bold text-center">
-        Total bids Amount: ${totalPrice}
+      Total bids Amount: ${totalPrice.toString().padStart(4, '0')}
       </div>
     </div>
   );
