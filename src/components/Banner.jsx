@@ -6,7 +6,7 @@ const Banner = () => {
             <div
                 className="hero min-h-[80vh]"
                 style={{
-                    backgroundImage: "url(/assets/Banner-min.jpg)",
+                    backgroundImage: "url(/assets/Banner-min.jpg)"
                 }}
             >
                 <div className="hero-overlay bg-opacity-50"></div>
