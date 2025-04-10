@@ -17,7 +17,7 @@ const Banner = () => {
                             Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
                             quasi. In deleniti eaque aut repudiandae et a id nisi.
                         </p>
-                        <button className="btn text-black rounded-full p-4">Get Started</button>
+                        <button className="btn text-black rounded-full p-4  hover:bg-yellow-400">Get Started</button>
                     </div>
                 </div>
             </div>

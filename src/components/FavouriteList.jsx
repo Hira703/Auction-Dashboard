@@ -33,7 +33,7 @@ const FavouriteList = ({ favourites, onRemove, totalPrice }) => {
               </div>
               {/* Remove Button (Cross Icon) */}
               <button
-                className="btn"
+                className="btn hover:bg-red-300"
                 onClick={() => onRemove(item.id)}
               >
                <FontAwesomeIcon icon={faTimes} />

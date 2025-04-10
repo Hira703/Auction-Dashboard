@@ -7,7 +7,7 @@ const NavBar = () => {
                 {/* Logo Section */}
                 <div className="flex items-center space-x-2">
                     <h1 className="text-3xl text-blue-400 font-bold">
-                        Auction <span className="text-yellow-300">Gallery</span>
+                        Auction<span className="text-yellow-300">Gallery</span>
                     </h1>
                 </div>
 
