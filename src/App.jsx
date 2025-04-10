@@ -36,7 +36,7 @@ const totalPrice=favourites.reduce((total,item)=>total+item.currentBidPrice,0)
     <NavBar></NavBar>
     <Banner></Banner>
     <div className='bg-gray-200 p-10'>
-    <h1 className="text-3xl font-bold text-left px-4 md:px-12 mb-8 text-black ">Active
+    <h1 className="text-3xl font-bold text-left px-4 md:px-12 mb-4 text-black ">Active
 Auctions
         </h1> 
         <p className='text-left px-4 md:px-12 mb-8 text-gray-500'>Discover and bid on extraordinary items</p>

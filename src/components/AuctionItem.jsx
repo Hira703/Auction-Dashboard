@@ -14,7 +14,7 @@ const AuctionItem = ({ item, onAdd, isFavorited }) => {
       <td>{item.timeLeft}</td>
       <td>
         <button
-          className={`text-xl ${isFavorited ? 'cursor-not-allowed  text-red-300' : 'text-gray-400'}`}
+          className={`text-xl ${isFavorited ? 'cursor-not-allowed  text-red-600' : 'text-gray-400'}`}
           onClick={() => onAdd(item)}
           disabled={isFavorited}
         >
