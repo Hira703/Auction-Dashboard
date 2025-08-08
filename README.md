@@ -23,16 +23,15 @@ A sleek and responsive React-based auction dashboard where users can explore liv
 ```bash
 git clone https://github.com/Hira703/Auction-Dashboard.git
 cd Auction-Dashboard
+```
 2. Install dependencies
-bash
-Copy
-Edit
+```bash
 npm install
-3. Run locally
-bash
-Copy
-Edit
+```
+4. Run locally
+```bash
 npm run dev
+```
 Then open http://localhost:5173 in your browser.
 
 Tech Stack
